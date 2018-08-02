@@ -15,7 +15,7 @@ import com.outbrain.OBSDK.Viewability.OBTextView;
 public class SmartFeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private OBSmartFeed obSmartFeed;
-    private static final int ORIGINAL_RECYCLE_VIEW_SIZE = 3;
+    private static final int ORIGINAL_RECYCLE_VIEW_SIZE = 6;
     private static final int ARTICLE_HEADER_VIEW_TYPE = 1;
     private static final int ARTICLE_DETAILS_VIEW_TYPE = 2;
     private static final int ARTICLE_TEXT_TYPE = 3;
