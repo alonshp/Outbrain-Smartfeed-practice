@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="By"
+            android:textColor="@color/colorArticleText"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/article_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barbara Starr and Ryan Brown, CNN"
+            android:textColor="@color/colorArticleText"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/article_updated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Updated 2 hourse ago Aug 2,2018"
+        android:textColor="@color/colorArticleUpdated"
+        android:textSize="14sp" />
+</LinearLayout>
